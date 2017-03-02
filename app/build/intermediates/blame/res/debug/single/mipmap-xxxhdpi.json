@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ruben\\Desktop\\HealthSync\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ruben\\Desktop\\HealthSync\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ruben\\AndroidStudioProjects\\HealthSync\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ruben\\AndroidStudioProjects\\HealthSync\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

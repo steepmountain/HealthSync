@@ -1,0 +1,7 @@
+#Thu Mar 02 19:21:34 CET 2017
+base.0=C\:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_20a2a710947bfdbded5fbd0bd763433c30c2f523
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6e114cfe61eac3c76307f2cc82a5192b7a0a437c\\classes.dex
+base.1=C\:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6e114cfe61eac3c76307f2cc82a5192b7a0a437c
+file.0=C\:\\Users\\Ruben\\Google Drive\\AndroidStudio\\HealthSync\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_20a2a710947bfdbded5fbd0bd763433c30c2f523\\classes.dex
