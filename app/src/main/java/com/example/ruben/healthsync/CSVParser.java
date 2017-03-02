@@ -12,8 +12,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 /**
- * Created by Ruben on 25.02.2017.
+ * Scans through S Health CSV files and returns an array of Exercise objects
  */
+
+// TODO: Option to pick and choose which metrics to use
 
 public class CSVParser {
 

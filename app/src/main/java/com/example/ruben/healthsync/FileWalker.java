@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * Created by Ruben on 25.02.2017.
+ * Finds CSV files in a given folder, returning only the newest version.
  */
 
 public class FileWalker {
@@ -21,11 +21,11 @@ public class FileWalker {
 
 
     // Finds all CSV files in a given folder and returns them in an ArrayList<File>
-    public ArrayList<File> findCSV(String path) {
+    public File findCSV(String path) {
 
-        // TODO: Only look in SHealth folder/ downloads folder
+        // TODO: Option to pick which folder to search in
+        // TODO: Option to pick file directly
         // TODO: make async/background task/use new thread
-        // TODO: find newest file here?
 
         // gets all the files of the root dir
         File root = new File(path);
@@ -43,7 +43,15 @@ public class FileWalker {
                 csvArray.add(f);
             }
         }
-        Collections.sort(csvArray);
-        return csvArray;
+
+        // Sorts the CSVs and uses the newest one
+        if (!csvArray.isEmpty()) {
+            Collections.sort(csvArray);
+            File latestCSV = csvArray.get(csvArray.size()-1);
+            return latestCSV;
+        }
+        return null;
+
+
     }
 }

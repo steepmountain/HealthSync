@@ -4,7 +4,8 @@ package com.example.ruben.healthsync;
 // Take the newest file and send it to CSVParser
 // Turn the CSVParser's array into JSON objects and send to database
 // TODO: Make Comparator to properly Collections.Sort runs, move into FileWalker?
-// TODO: Make runs into JSON objects and send them to database
+// TODO: Make runs into JSON objects and send them to database;
+// TOOD: Fix error message
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -18,7 +19,6 @@ import android.widget.TextView;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
         // looks through the file system for csv files
         FileWalker fw = new FileWalker();
-        ArrayList<File> csv = fw.findCSV(FOLDER);
+        File csv = fw.findCSV(FOLDER);
         CSVParser parser = new CSVParser();
 
         // tries to parse the CSV and handles errors
         try {
             String output = "";
             // Gets last member of list
-            ArrayList<Exercise> runList = parser.parse(csv.get(csv.size() - 1));
+            ArrayList<Exercise> runList = parser.parse(csv);
 
             Log.v("RunListSize", runList.size() + "");
 

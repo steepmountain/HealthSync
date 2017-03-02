@@ -3,6 +3,10 @@ package com.example.ruben.healthsync;
 /**
  * Created by Ruben on 25.02.2017.
  */
+
+// TODO: Option 1. Pick and choose which metrics to use, use everyone
+// TODO: Option 2. Generic class WALK and subclass RUN.
+
 public class Exercise {
 
     String endTime;
@@ -40,6 +44,8 @@ public class Exercise {
         this.distance = distance;
         this.createTime = createTime;
     }
+
+
 
     @Override
     public String toString() {
